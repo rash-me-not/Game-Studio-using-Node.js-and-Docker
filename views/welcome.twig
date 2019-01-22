@@ -1,0 +1,15 @@
+{% extends 'layout.twig' %}
+
+{% block title %}
+About Page
+{% endblock %}
+
+{% block content %}
+<section id="section-about" class="bg-grey">
+   Welcome Controller says - Welcome {{ username }}
+   </br></br>
+   Current Login Time - {{ current_login_time }}
+   </br></br></br></br>
+</section></br>
+{% include 'footer.twig' %}
+{% endblock %}
